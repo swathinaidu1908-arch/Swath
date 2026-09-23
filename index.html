@@ -1,0 +1,623 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Swathi P — Identity Verification Specialist</title>
+  <meta name="description"
+    content="Portfolio of Swathi P, an Identity Verification Specialist with 4+ years at Yoti Biometric, skilled in document authentication, Power BI, and data reporting." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- ░░ CUSTOM CURSOR ░░ -->
+  <div class="cursor-dot" id="cursorDot"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ░░ NAVBAR ░░ -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-logo">SP<span class="dot">.</span></a>
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#contact" class="nav-link cta-btn">Contact Me</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- ░░ HERO ░░ -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <canvas id="particleCanvas"></canvas>
+    </div>
+    <div class="hero-content">
+      <div class="hero-badge reveal">
+        <span class="badge-dot"></span> Open to new opportunities
+      </div>
+      <h1 class="hero-name reveal">
+        Hi, I'm <span class="gradient-text">Swathi P</span>
+      </h1>
+      <div class="hero-title reveal">
+        <span class="typed-text" id="typedText"></span><span class="cursor-blink">|</span>
+      </div>
+      <p class="hero-desc reveal">
+        Identity Verification Specialist with <strong>4+ years</strong> verifying real people in a digital world —
+        through document checks, face match, liveness detection, and Power BI-driven insights.
+      </p>
+      <div class="hero-cta reveal">
+        <a href="#experience" class="btn btn-primary">View My Work</a>
+        <a href="#contact" class="btn btn-outline">Get In Touch</a>
+      </div>
+      <div class="hero-stats reveal">
+        <div class="stat">
+          <span class="stat-number" data-target="4">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Years Exp</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="4">0</span><span class="stat-plus"></span>
+          <span class="stat-label">Languages Spoken</span>
+        </div>
+        <div class="stat-divider"></div>
+        <div class="stat">
+          <span class="stat-number" data-target="5">0</span><span class="stat-plus">+</span>
+          <span class="stat-label">Certifications</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll-hint">
+      <span>Scroll</span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- ░░ ABOUT ░░ -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-label reveal">01 — About Me</div>
+      <h2 class="section-title reveal">Verifying Identity, <span class="gradient-text">Powering Trust</span></h2>
+      <div class="about-grid">
+        <div class="about-visual reveal">
+          <div class="about-card-wrapper">
+            <div class="about-avatar-card">
+              <div class="avatar-initials">SP</div>
+              <div class="avatar-glow"></div>
+            </div>
+            <div class="floating-badge badge-award">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <circle cx="12" cy="8" r="6" stroke="#f59e0b" stroke-width="2" />
+                <path d="M9 22l3-3 3 3V15a6 6 0 01-6 0v7z" stroke="#f59e0b" stroke-width="2" stroke-linejoin="round" />
+              </svg>
+              <span>Best Employee 🏆</span>
+            </div>
+            <div class="floating-badge badge-powerbi">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none">
+                <rect x="3" y="12" width="4" height="9" rx="1" fill="#f59e0b" />
+                <rect x="10" y="7" width="4" height="14" rx="1" fill="#f0a500" />
+                <rect x="17" y="3" width="4" height="18" rx="1" fill="#e8a000" />
+              </svg>
+              <span>Power BI</span>
+            </div>
+          </div>
+        </div>
+        <div class="about-text reveal">
+          <p>I'm <strong>Swathi P</strong>, an <strong>Identity Verification Specialist</strong> based in
+            <strong>Bengaluru, India</strong>, with over 4 years of hands-on experience at Yoti Biometric Pvt Ltd.
+            Every day, I help ensure that real people are who they claim to be — by authenticating documents, running
+            face match and liveness checks, and flagging discrepancies with precision.
+          </p>
+          <p>Beyond verification work, I build <em>Power BI dashboards and reports</em> that transform raw data into
+            clear, actionable insights — using Power Query to clean and model data before it ever hits a chart.</p>
+          <p>I've been recognised as <em> First Training Champion & assigned as a </em> <em>Deputy Supervisor</em> for
+            onboarding new
+            hires, and as <em>Best Employee of
+              the Quarter</em> for my accuracy and reliability in high-volume work. I take pride in doing the
+            detail-oriented work well, especially when identity and trust are on the line.</p>
+          <div class="about-info-grid">
+            <div class="about-info-item">
+              <span class="info-icon">📍</span>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Bengaluru, India</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <span class="info-icon">📧</span>
+              <div>
+                <span class="info-label">Email</span>
+                <a href="mailto:swathinaidu1908@gmail.com" class="info-value info-link">swathinaidu1908@gmail.com</a>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <span class="info-icon">📞</span>
+              <div>
+                <span class="info-label">Phone</span>
+                <span class="info-value">+91 9481775723</span>
+              </div>
+            </div>
+            <div class="about-info-item">
+              <span class="info-icon">🔗</span>
+              <div>
+                <span class="info-label">LinkedIn</span>
+                <a href="https://linkedin.com/in/swathi-naidu-043390235" target="_blank"
+                  class="info-value info-link">swathi-naidu</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EXPERIENCE ░░ -->
+  <section class="section experience-section" id="experience">
+    <div class="container">
+      <div class="section-label reveal">02 — Work Experience</div>
+      <h2 class="section-title reveal">Where I've <span class="gradient-text">Made an Impact</span></h2>
+      <div class="timeline">
+
+        <!-- Job 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Identity Verification Specialist</h3>
+                <div class="tl-company">Yoti Biometric Pvt Ltd — Bengaluru</div>
+              </div>
+              <div class="tl-meta">
+                <span class="tl-date">Apr 2022 – Present</span>
+                <span class="tl-badge tl-badge-active">Current</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Verify the authenticity of documents submitted by users and clients during onboarding, handling
+                document checks, data entry, face match, and liveness checks to confirm identity accurately.</li>
+              <li>Report verification outcomes and flag discrepancies to the Supervisor and Head of Operations; support
+                ad hoc face-verification research tasks as they arise.</li>
+              <li>Extract data from multiple sources into Power BI Desktop and transform it in Power Query Editor to
+                build interactive reports and dashboards — including pie charts, donut charts, word clouds, cards, and
+                slicers.</li>
+              <li>Recognised as <strong>"Training Champion"</strong> and <strong>Best Employee of the Quarter</strong>
+                for consistent performance in verification accuracy and new-hire training support.</li>
+            </ul>
+            <div class="tl-stack">
+              <span class="tag">Document Authentication</span>
+              <span class="tag">Face Match</span>
+              <span class="tag">Liveness Checks</span>
+              <span class="tag">Power BI</span>
+              <span class="tag">Power Query</span>
+              <span class="tag">Data Entry</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <div class="tl-header">
+              <div>
+                <h3 class="tl-role">Java Web Application Development Intern</h3>
+                <div class="tl-company">ATS Global Techsoft Pvt Ltd — Bengaluru</div>
+              </div>
+              <div class="tl-meta">
+                <span class="tl-date">Jun 2021 – Aug 2021</span>
+                <span class="tl-badge">Internship</span>
+              </div>
+            </div>
+            <ul class="tl-bullets">
+              <li>Assisted with Java web application development tasks and gained hands-on exposure to the full software
+                development lifecycle.</li>
+              <li>Received Internship Completion Certificate for contributions during the engagement.</li>
+            </ul>
+            <div class="tl-stack">
+              <span class="tag">Java</span>
+              <span class="tag">Web Development</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ SKILLS ░░ -->
+  <section class="section skills-section" id="skills">
+    <div class="container">
+      <div class="section-label reveal">03 — Skills & Expertise</div>
+      <h2 class="section-title reveal">My <span class="gradient-text">Toolkit</span></h2>
+      <div class="skills-grid">
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">📊</div>
+          <h3 class="skill-cat-title">Data & Reporting</h3>
+          <div class="skill-pills">
+            <div class="skill-pill featured">
+              <span class="pill-icon">PB</span>
+              <span>Power BI</span>
+            </div>
+            <div class="skill-pill featured">
+              <span class="pill-icon">PQ</span>
+              <span>Power Query</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">SQL</span>
+              <span>SQL</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">XL</span>
+              <span>Excel</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🔐</div>
+          <h3 class="skill-cat-title">Verification & Operations</h3>
+          <div class="skill-pills">
+            <div class="skill-pill featured">
+              <span class="pill-icon">DA</span>
+              <span>Document Auth</span>
+            </div>
+            <div class="skill-pill featured">
+              <span class="pill-icon">FM</span>
+              <span>Face Match</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">LC</span>
+              <span>Liveness Checks</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">DE</span>
+              <span>Data Entry</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">💻</div>
+          <h3 class="skill-cat-title">Programming</h3>
+          <div class="skill-pills">
+            <div class="skill-pill">
+              <span class="pill-icon">VB</span>
+              <span>Visual Basic</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">Jv</span>
+              <span>Java</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">C</span>
+              <span>C</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">C++</span>
+              <span>C++</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="skill-category reveal">
+          <div class="skill-cat-icon">🌐</div>
+          <h3 class="skill-cat-title">Languages</h3>
+          <div class="skill-pills">
+            <div class="skill-pill featured">
+              <span class="pill-icon">EN</span>
+              <span>English</span>
+            </div>
+            <div class="skill-pill featured">
+              <span class="pill-icon">TE</span>
+              <span>Telugu (Native)</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">TA</span>
+              <span>Tamil</span>
+            </div>
+            <div class="skill-pill">
+              <span class="pill-icon">KN</span>
+              <span>Kannada</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Proficiency bars -->
+      <div class="proficiency-bars reveal">
+        <h3 class="prof-title">Tool Proficiency</h3>
+        <div class="prof-bar-item">
+          <div class="prof-label"><span>Power BI & Power Query</span><span>90%</span></div>
+          <div class="prof-track">
+            <div class="prof-fill" data-width="90"></div>
+          </div>
+        </div>
+        <div class="prof-bar-item">
+          <div class="prof-label"><span>Document Authentication & Face Match</span><span>99.9%</span></div>
+          <div class="prof-track">
+            <div class="prof-fill" data-width="99.9"></div>
+          </div>
+        </div>
+        <div class="prof-bar-item">
+          <div class="prof-label"><span>Excel & Data Reporting</span><span>98%</span></div>
+          <div class="prof-track">
+            <div class="prof-fill" data-width="98"></div>
+          </div>
+        </div>
+        <div class="prof-bar-item">
+          <div class="prof-label"><span>SQL</span><span>75%</span></div>
+          <div class="prof-track">
+            <div class="prof-fill" data-width="75"></div>
+          </div>
+        </div>
+        <div class="prof-bar-item">
+          <div class="prof-label"><span>Java / C / C++</span><span>70%</span></div>
+          <div class="prof-track">
+            <div class="prof-fill" data-width="70"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ░░ PROJECTS ░░ -->
+  <section class="section projects-section" id="projects">
+    <div class="container">
+      <div class="section-label reveal">04 — Personal Project</div>
+      <h2 class="section-title reveal">Things I've <span class="gradient-text">Built</span></h2>
+      <div class="projects-grid single-project">
+
+        <div class="project-card reveal featured-project">
+          <div class="project-header">
+            <div class="project-num">01</div>
+            <span class="project-badge-featured">Personal Project</span>
+          </div>
+          <h3 class="project-title">Crime Report Management System</h3>
+          <p class="project-desc">A system for logging, tracking, and managing crime reports. Designed to provide a
+            structured workflow for recording incident details, tracking case status, and managing report data —
+            reflecting my interest in organised, data-driven systems and operational tooling.</p>
+          <div class="project-highlights">
+            <div class="highlight-item"><span class="hl-icon">🗂️</span> Report Logging & Tracking</div>
+            <div class="highlight-item"><span class="hl-icon">📋</span> Case Management Workflow</div>
+            <div class="highlight-item"><span class="hl-icon">💾</span> Structured Data Storage</div>
+          </div>
+          <div class="project-tags">
+            <span class="tag">Java</span>
+            <span class="tag">Data Management</span>
+            <span class="tag">System Design</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ ACHIEVEMENTS ░░ -->
+  <section class="section achievements-section" id="achievements">
+    <div class="container">
+      <div class="section-label reveal">05 — Recognition</div>
+      <h2 class="section-title reveal">Achievements & <span class="gradient-text">Awards</span></h2>
+      <div class="achievements-grid">
+
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🏆</div>
+          <div class="ach-content">
+            <h3 class="ach-title">Best Employee of the Quarter</h3>
+            <p class="ach-desc">Recognised at Yoti Biometric for outstanding performance, consistent accuracy, and
+              reliability across high-volume verification work.</p>
+            <span class="ach-org">Yoti Biometric Pvt Ltd</span>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="ach-icon">🎖️</div>
+          <div class="ach-content">
+            <h3 class="ach-title">Training Champion</h3>
+            <p class="ach-desc">Awarded for successfully onboarding and training new hires, sharing verification best
+              practices and helping the team maintain quality standards.</p>
+            <span class="ach-org">Yoti Biometric Pvt Ltd</span>
+          </div>
+        </div>
+
+        <div class="achievement-card reveal">
+          <div class="ach-icon">⭐</div>
+          <div class="ach-content">
+            <h3 class="ach-title">Awarded by Yoti DNA</h3>
+            <p class="ach-desc">Received special recognition from Yoti DNA for exceptional contribution and consistent
+              delivery of high-quality identity verification outcomes.</p>
+            <span class="ach-org">Yoti DNA</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CERTIFICATIONS ░░ -->
+  <section class="section certifications-section" id="certifications">
+    <div class="container">
+      <div class="section-label reveal">06 — Certifications</div>
+      <h2 class="section-title reveal">Continuous <span class="gradient-text">Learning</span></h2>
+      <div class="certs-grid">
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">📈</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Power BI</h3>
+            <div class="cert-issuer">Skill Nation</div>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">📊</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Excel</h3>
+            <div class="cert-issuer">Skill Nation</div>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🗺️</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Career Planning Fundamentals</h3>
+            <div class="cert-issuer">Upgrad</div>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">💡</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Coding Fundamentals</h3>
+            <div class="cert-issuer">Grasshopper</div>
+          </div>
+          <div class="cert-badge">Certified</div>
+        </div>
+
+        <div class="cert-card reveal">
+          <div class="cert-icon">🎓</div>
+          <div class="cert-info">
+            <h3 class="cert-name">Internship Completion</h3>
+            <div class="cert-issuer">ATS Global Techsoft</div>
+          </div>
+          <div class="cert-badge">Completed</div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ EDUCATION ░░ -->
+  <section class="section education-section" id="education">
+    <div class="container">
+      <div class="section-label reveal">07 — Education</div>
+      <h2 class="section-title reveal">My <span class="gradient-text">Academic</span> Foundation</h2>
+      <div class="edu-card reveal">
+        <div class="edu-icon">🎓</div>
+        <div class="edu-info">
+          <h3 class="edu-degree">Bachelor of Computer Applications (BCA)</h3>
+          <div class="edu-college">Bangalore North University</div>
+        </div>
+        <div class="edu-badge">Bachelor's Degree</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ CONTACT ░░ -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-label reveal">08 — Get In Touch</div>
+      <h2 class="section-title reveal">Let's <span class="gradient-text">Connect</span></h2>
+      <p class="contact-sub reveal">I'd love to hear from you — whether it's an exciting opportunity, a collaboration,
+        or just a hello.</p>
+      <div class="contact-grid">
+        <div class="contact-cards reveal">
+          <a href="mailto:swathinaidu1908@gmail.com" class="contact-card" id="emailContactCard">
+            <div class="cc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <rect x="2" y="4" width="20" height="16" rx="2" />
+                <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7" />
+              </svg>
+            </div>
+            <div>
+              <div class="cc-label">Email Me</div>
+              <div class="cc-value">swathinaidu1908@gmail.com</div>
+            </div>
+            <svg class="cc-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="tel:+919481775723" class="contact-card" id="phoneContactCard">
+            <div class="cc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path
+                  d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81 19.79 19.79 0 01.01 1.19 2 2 0 012 .01h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.91 7.91a16 16 0 006.18 6.18l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z" />
+              </svg>
+            </div>
+            <div>
+              <div class="cc-label">Call Me</div>
+              <div class="cc-value">+91 9481775723</div>
+            </div>
+            <svg class="cc-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/swathi-p-043390235" target="_blank" class="contact-card"
+            id="linkedinContactCard">
+            <div class="cc-icon">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6z" />
+                <rect x="2" y="9" width="4" height="12" />
+                <circle cx="4" cy="4" r="2" />
+              </svg>
+            </div>
+            <div>
+              <div class="cc-label">LinkedIn</div>
+              <div class="cc-value">swathi-p-043390235/</div>
+            </div>
+            <svg class="cc-arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+              stroke-width="2">
+              <path d="M5 12h14M12 5l7 7-7 7" />
+            </svg>
+          </a>
+        </div>
+        <form class="contact-form reveal" id="contactForm">
+          <div class="form-group">
+            <label for="nameInput">Your Name</label>
+            <input type="text" id="nameInput" placeholder="Jane Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="emailInput">Your Email</label>
+            <input type="email" id="emailInput" placeholder="jane@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="messageInput">Message</label>
+            <textarea id="messageInput" rows="4" placeholder="Tell me about the opportunity..." required></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary btn-full" id="submitContactBtn">Send Message 🚀</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ░░ FOOTER ░░ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-inner">
+        <div class="footer-logo">SP<span class="dot">.</span></div>
+        <p class="footer-copy">© 2026 Swathi P. Crafted with ❤️ &amp; purpose.</p>
+        <div class="footer-links">
+          <a href="#hero">Top</a>
+          <a href="mailto:swathinaidu1908@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/swathi-p-043390235/" target="_blank">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
